@@ -3,7 +3,7 @@ import React from "react";
 export const Sobre = () =>{
     return(
         <>
-        <main className=" bg-white px-10 dark:bg-[#2C3333] md:px-20 lg:px-40 " id="sobre">
+        <main className="px-10 bg-[#2C3333] md:px-20 lg:px-40 " id="sobre">
             <div className="flex-1 md:m-auto md:max-w-6xl md:w-full pt-24 md:pt-32 pb-20">
 
                 <h3 className=" text-center text-4xl py-5 md:py-12 text-slate-100 font-extralight md:text-5xl ">Sobre mim</h3>

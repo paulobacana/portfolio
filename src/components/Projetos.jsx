@@ -9,7 +9,7 @@ import web6 from "/src/img/web6.png";
 export const Projetos = () => {
   return (
     <>
-      <main className=" bg-white px-10 dark:bg-[#2C3333] md:px-20 lg:px-40 " id="projetos">
+      <main className="px-10 bg-[#2C3333] md:px-20 lg:px-40 " id="projetos">
         <section className="pt-24">
           <div>
             <h3 className=" text-center text-4xl py-5 md:py-12 text-slate-100 font-extralight md:text-5xl ">

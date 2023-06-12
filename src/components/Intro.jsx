@@ -17,7 +17,7 @@ function Intro() {
 
   return (
     <>
-      <main className=" bg-white px-10 dark:bg-[#2C3333] md:px-20 lg:px-40 ">
+      <main className="px-10 bg-[#2C3333] md:px-20 lg:px-40 ">
         <section className="min-h-screen md:pt-20">
           <div className="flex flex-col items-start md:flex-row">
             <div className="text-center p-10 py-10 md:w-1/2">

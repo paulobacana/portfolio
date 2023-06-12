@@ -38,7 +38,7 @@ export const Tecnologias = () => {
 
   return (
     <>
-      <main className=" bg-white px-10 dark:bg-[#2C3333] md:px-20 lg:px-40 " id="tecnologia">
+      <main className="px-10 bg-[#2C3333] md:px-20 lg:px-40 " id="tecnologia">
         <section>
           <div className="md:pt-48 pt-16">
             <h3 className=" text-center text-4xl pb-20  text-slate-100 font-extralight md:text-5xl">Tecnologias</h3>
