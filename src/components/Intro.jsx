@@ -17,7 +17,7 @@ function Intro() {
 
   return (
     <>
-      <main className="px-10 bg-[#2C3333] md:px-20 lg:px-40 ">
+      <main className="px-10 bg-[#2C3333] md:px-20 lg:px-40">
         <section className="min-h-screen md:pt-20">
           <div className="flex flex-col items-start md:flex-row">
             <div className="text-center p-10 py-10 md:w-1/2">
@@ -53,13 +53,13 @@ function Intro() {
                 <img src={paulo} className='h-full w-44 pt-8 md:pt-20 pl-4 md:h-full md:w-full md:hover:scale-[1.15] md:hover:rotate-[10deg] duration-1000' />
               </div>
 
-              <div className="flex justify-center gap-12 py-6 md:py-16 dark:text-gray-400 md:text-5xl">
+              <div className="flex justify-center gap-12 py-6 md:py-16 text-gray-400 md:text-5xl">
                 <a href="https://www.linkedin.com/in/paulo-emilio-427319254/" target="_blank"><AiFillLinkedin className="md:hover:scale-[1.20] md:hover:rotate-[3deg] duration-1000 cursor-pointer"/></a>
                 <a href="https://github.com/paulobacana" target='_blank'><AiFillGithub className="md:hover:scale-[1.20] md:hover:rotate-[3deg] duration-1000 cursor-pointer"/></a>
                 <a href="https://wa.me/5511955208265" target="_blank"><AiOutlineWhatsApp className="md:hover:scale-[1.20] md:hover:rotate-[3deg] duration-1000 cursor-pointer"/></a>
               </div>
 
-              <div className="flex flex-row gap-2 py-6 justify-center dark:text-gray-400 md:text-3xl font-extralight">
+              <div className="flex flex-row gap-2 py-6 justify-center text-gray-400 md:text-3xl font-extralight">
                 <a href={Pdf} target="_blank">Baixar CV</a>
                 <a href={Pdf} target="_blank"><CV className="md:hover:scale-[1.20] md:hover:rotate-[3deg] duration-1000 cursor-pointer"/></a>
               </div>      
