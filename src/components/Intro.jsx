@@ -4,6 +4,7 @@ import {BsFillFileEarmarkArrowDownFill as CV} from "react-icons/bs"
 import paulo from "/src/img/paulo2.png";
 import { HashLink as Link } from 'react-router-hash-link';
 import Pdf from '../Documents/MeuCurriculo.pdf'
+import Pdf2 from '../Documents/NetworkingEssentialsCertificate.pdf'
 //import { useTypewriter } from 'react-simple-typewriter';
 
 function Intro() {
@@ -62,6 +63,7 @@ function Intro() {
               <div className="flex flex-row gap-2 py-6 justify-center text-gray-400 md:text-3xl font-extralight">
                 <a href={Pdf} target="_blank">Baixar CV</a>
                 <a href={Pdf} target="_blank"><CV className="md:hover:scale-[1.20] md:hover:rotate-[3deg] duration-1000 cursor-pointer"/></a>
+                <a href={Pdf2} target="_blank"></a>
               </div>      
             </div>
           </div>
