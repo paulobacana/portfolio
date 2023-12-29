@@ -3,7 +3,7 @@ import {AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp} from "react-icons/ai";
 import {BsFillFileEarmarkArrowDownFill as CV} from "react-icons/bs"
 import paulo from "/src/img/paulo2.png";
 import { HashLink as Link } from 'react-router-hash-link';
-import Pdf from '../Documents/MeuCurriculo.pdf'
+import Pdf from '../Documents/Curriculo.pdf'
 import Pdf2 from '../Documents/NetworkingEssentialsCertificate.pdf'
 //import { useTypewriter } from 'react-simple-typewriter';
 
